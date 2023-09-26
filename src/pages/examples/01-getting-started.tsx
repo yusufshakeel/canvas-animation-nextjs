@@ -52,14 +52,9 @@ export default function Example01() {
                 <title>Canvas animation - Next.js</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
-            <style jsx>{`
-              #my-canvas {
-                border: 1px solid #999;
-              }
-            `}</style>
             <div>
                 <h1>01 Getting Started</h1>
-                <canvas ref={canvasRef} id="my-canvas"></canvas>
+                <canvas ref={canvasRef} className='border'></canvas>
             </div>
         </>
     )
