@@ -35,8 +35,8 @@ export default function Example01() {
             radius += dr;
 
             context.beginPath();
-            context.arc(width / 2, height / 2, radius, 0, 2 * Math.PI);
             context.fillStyle = '#333';
+            context.arc(width / 2, height / 2, radius, 0, 2 * Math.PI);
             context.fill();
 
             requestAnimationFrame(animate);
