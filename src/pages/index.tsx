@@ -12,6 +12,7 @@ export default function Home() {
                 <h1>canvas-animation-nextjs</h1>
                 <ul>
                     <li><Link href='/examples/01-getting-started'>01 Getting Started</Link></li>
+                    <li><Link href='/examples/02-start-stop'>02 Start Stop</Link></li>
                 </ul>
             </div>
         </>

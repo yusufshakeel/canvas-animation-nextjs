@@ -1,3 +1,4 @@
+import NavBarComponent from '@/components/navbar-component';
 import Head from 'next/head'
 import {useEffect, useRef} from "react";
 
@@ -42,7 +43,7 @@ export default function Example01() {
             requestAnimationFrame(animate);
         };
 
-        requestAnimationFrame(animate);
+        animate();
 
     }, []);
 
@@ -52,6 +53,7 @@ export default function Example01() {
                 <title>Canvas animation - Next.js</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
+            <NavBarComponent/>
             <div>
                 <h1>01 Getting Started</h1>
                 <canvas ref={canvasRef} className='border'></canvas>
