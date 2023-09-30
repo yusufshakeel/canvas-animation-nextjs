@@ -14,6 +14,7 @@ export default function Home() {
                     <li><Link href='/examples/01-getting-started'>01 Getting Started</Link></li>
                     <li><Link href='/examples/02-start-stop'>02 Start Stop</Link></li>
                     <li><Link href='/examples/03-bounce'>03 Bounce</Link></li>
+                    <li><Link href='/examples/04-mouse-move'>04 Mouse move</Link></li>
                 </ul>
             </div>
         </>
